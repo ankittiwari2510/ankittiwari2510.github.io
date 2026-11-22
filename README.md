@@ -1,20 +1,18 @@
-# Ankit Tiwari — Personal Portfolio
+# Ankit Tiwari — Professional Portfolio
 
-A responsive, static portfolio for GitHub Pages.
+Responsive static portfolio for GitHub Pages, positioned for European NPI, manufacturing, industrialisation, supplier project management and procurement project delivery opportunities.
 
 ## Publish / update
-1. Open https://github.com/ankittiwari2510/ankittiwari2510.github.io
-2. Upload the **contents** of this folder to the repository root (not the outer folder or ZIP).
-3. Commit the changes to `main`.
-4. GitHub Pages deploys from `main` / root.
+1. Upload the contents of this folder to the root of `ankittiwari2510.github.io`.
+2. Replace existing files when prompted.
+3. Commit the changes to the `main` branch.
+4. Wait for GitHub Pages to deploy, then hard-refresh the site (Ctrl+F5).
 
-## Main files
-- `index.html` — page content, metadata and structured profile data
-- `styles.css` — responsive styling
+## Files
+- `index.html` — page content, capability snapshot and SEO metadata
+- `styles.css` — responsive visual design
 - `script.js` — mobile navigation and current year
-- `assets/ankit-tiwari.jpg` — profile photo
-- `assets/Ankit_Tiwari_Resume.pdf` — downloadable CV
-- `sitemap.xml`, `robots.txt` — basic search indexing support
+- `assets/ankit-tiwari.jpg` — profile photograph
+- `assets/Ankit_Tiwari_Resume.pdf` — downloadable resume
 
-## Privacy
-The repository is public. The resume PDF and all files in this repository can be accessed by anyone. Remove the resume from `assets/` and remove the download links in `index.html` if you do not want the PDF publicly accessible.
+Achievement figures and career details are based on the supplied CV. DCM means Direct Cost Margin. The OEE study is labelled academic and is not represented as an implemented plant result. Supplier/procurement positioning is limited to supplier-change projects, supplier negotiations, supplier business cases and sourcing collaboration evidenced in the CV; it does not claim category ownership or strategic sourcing authority.

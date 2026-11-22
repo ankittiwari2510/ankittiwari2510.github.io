@@ -50,38 +50,68 @@
 @media(max-width:900px){.hero-grid{grid-template-columns:minmax(0,1.1fr) minmax(190px,.7fr);gap:25px}.hero-photo-frame{width:205px;height:260px}.hero h1{font-size:clamp(36px,5vw,50px)}}
 @media(max-width:680px){.hero{padding:52px 0 25px}.hero-grid{display:flex;flex-direction:column;align-items:stretch;gap:20px}.hero-copy{order:1}.hero-profile{order:2;width:100%;height:auto;margin:4px auto 0}.hero-photo-frame{width:156px;height:195px;border-width:4px;border-radius:10px}.hero h1{font-size:clamp(36px,10vw,46px);line-height:1.12}.hero-bottom{margin-top:25px}.brand-mark{width:40px;height:40px;flex-basis:40px}}
 
+/* Version 6: skills taxonomy, supplier-project positioning and restrained visual cues */
+.brand-mark{border-radius:50%;overflow:hidden}
+.brand-mark img{width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.skills-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.skills-grid .expertise-card{min-height:260px;padding:24px 22px;position:relative;overflow:hidden}
+.skills-grid .expertise-card:after{content:"";position:absolute;width:110px;height:110px;border:1px solid #edf2f7;border-radius:50%;right:-62px;bottom:-62px}
+.skill-icon{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:10px;background:#f0f5fb;font-size:18px;margin-bottom:14px}
+.skills-grid .expertise-card h3{margin:10px 0 12px;font-size:15px}
+.skills-grid .expertise-card p{font-size:11px;line-height:1.9;color:#66778d}
+.role-pathways{margin:26px 0 0;padding:21px 23px;border:1px solid #dfe7f0;border-radius:9px;background:#f7f9fc}
+.pathway-label{display:block;font-size:9px;font-weight:800;letter-spacing:.16em;color:#6b86a6;margin-bottom:13px}
+.role-pathways>div{display:flex;flex-wrap:wrap;gap:9px}
+.role-pathways>div span{font-size:10px;font-weight:700;color:#294767;background:#fff;border:1px solid #e1e8f0;border-radius:30px;padding:8px 12px}
+.role-pathways p{font-size:10px;color:#7b899a;margin:13px 0 0;line-height:1.7}
+.impact-card:nth-child(3) .impact-value{color:#4e80b7}
+@media(max-width:900px){.skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.skills-grid{grid-template-columns:1fr}.skills-grid .expertise-card{min-height:0;padding:21px}.skill-icon{margin-bottom:10px}.role-pathways{padding:18px}.role-pathways>div span{font-size:9px}}
 
-/* Final portrait sizing fix: one compact hero portrait and a circular brand avatar. */
-.brand-mark{
-  width:38px!important;height:38px!important;min-width:38px!important;
-  border-radius:50%!important;overflow:hidden!important;padding:0!important;
-  display:block!important;flex:0 0 38px!important;background:var(--navy)!important;
-}
-.brand-mark img{
-  display:block!important;width:100%!important;height:100%!important;
-  max-width:100%!important;max-height:100%!important;object-fit:cover!important;
-  object-position:center 22%!important;border-radius:50%!important;
-}
-.hero-grid{grid-template-columns:minmax(0,1.2fr) minmax(230px,.8fr)!important;gap:42px!important}
-.hero-profile{height:auto!important;min-height:0!important;display:flex!important;
-  align-items:center!important;justify-content:center!important;max-width:100%!important}
-.hero-photo-frame{
-  width: min(100%, 270px)!important;height:340px!important;
-  border:5px solid rgba(255,255,255,.14)!important;
-  border-radius:14px!important;box-shadow:0 18px 44px rgba(0,0,0,.20)!important;
-  overflow:hidden!important;
-}
-.hero-photo-frame img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 20%!important}
-.hero-profile .floating-stat,.hero-profile .stat-top,.hero-profile .stat-bottom,
-.hero-photo-caption{display:none!important}
-.about-portrait,.about-side .about-portrait{display:none!important}
-@media(max-width:900px){
-  .hero-grid{grid-template-columns:minmax(0,1fr) minmax(190px,.7fr)!important;gap:24px!important}
-  .hero-photo-frame{width:min(100%,230px)!important;height:290px!important}
-}
-@media(max-width:680px){
-  .brand-mark{width:38px!important;height:38px!important;flex-basis:38px!important}
-  .hero-grid{display:flex!important;flex-direction:column!important;align-items:stretch!important}
-  .hero-profile{order:2!important;margin:12px auto 0!important;width:100%!important}
-  .hero-photo-frame{width:156px!important;height:195px!important}
-}
+/* Version 6: skills taxonomy, supplier-project positioning and restrained visual cues */
+.skills-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.skills-grid .expertise-card{min-height:260px;padding:24px 22px;position:relative;overflow:hidden}
+.skills-grid .expertise-card:after{content:"";position:absolute;width:110px;height:110px;border:1px solid #edf2f7;border-radius:50%;right:-62px;bottom:-62px}
+.skill-icon{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:10px;background:#f0f5fb;font-size:18px;margin-bottom:14px}
+.skills-grid .expertise-card h3{margin:10px 0 12px;font-size:15px}
+.skills-grid .expertise-card p{font-size:11px;line-height:1.9;color:#66778d}
+.role-pathways{margin:26px 0 0;padding:21px 23px;border:1px solid #dfe7f0;border-radius:9px;background:#f7f9fc}
+.pathway-label{display:block;font-size:9px;font-weight:800;letter-spacing:.16em;color:#6b86a6;margin-bottom:13px}
+.role-pathways>div{display:flex;flex-wrap:wrap;gap:9px}
+.role-pathways>div span{font-size:10px;font-weight:700;color:#294767;background:#fff;border:1px solid #e1e8f0;border-radius:30px;padding:8px 12px}
+.role-pathways p{font-size:10px;color:#7b899a;margin:13px 0 0;line-height:1.7}
+@media(max-width:900px){.skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.skills-grid{grid-template-columns:1fr}.skills-grid .expertise-card{min-height:0;padding:21px}.skill-icon{margin-bottom:10px}.role-pathways{padding:18px}.role-pathways>div span{font-size:9px}}
+
+/* Version 7: polished skill taxonomy and restrained visual accents */
+.skill-card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.skill-icon{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:9px;background:#eef4fb;font-size:17px}
+.skills-grid .expertise-card{min-height:0;padding:23px 21px;display:flex;flex-direction:column}
+.skills-grid .expertise-card h3{margin:8px 0 14px;font-size:15px}
+.skill-chips{display:flex;flex-wrap:wrap;gap:7px;align-content:flex-start}
+.skill-chips span{display:inline-flex;align-items:center;padding:6px 9px;border:1px solid #e5ebf2;border-radius:5px;background:#f8fafd;color:#53677f;font-size:10px;line-height:1.35;font-weight:500}
+.skill-chips span:hover{border-color:#b9cfe7;background:#f0f6fc;color:#24476e}
+.impact-card{padding-top:23px}
+.impact-symbol{position:absolute;right:26px;top:47px;width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:#f1f6fb;font-size:19px;opacity:.95}
+.impact-feature .impact-symbol{background:#294665}
+.impact-value{padding-right:48px}
+.role-pathways>div{display:flex;flex-wrap:wrap;gap:9px}
+.role-pathways>div span{border:1px solid #dce6f1;background:#fff;border-radius:30px;padding:8px 12px;font-size:10px;color:#3f5875;font-weight:600}
+@media(max-width:680px){.skills-grid{grid-template-columns:1fr}.skills-grid .expertise-card{padding:20px}.skill-chips span{font-size:10px}.impact-symbol{right:20px;top:42px}}
+
+/* Version 8 — recruiter-first capability overview */
+.quick-overview{background:#fff;border-bottom:1px solid #e8edf3;padding:42px 0 48px}
+.quick-overview-head{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:22px}
+.quick-overview-head .section-index{padding:0;white-space:nowrap}
+.quick-overview-head p{margin:0;color:#718096;font-size:12px;text-align:right;max-width:560px}
+.quick-overview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.quick-overview-grid article{position:relative;min-height:132px;padding:18px 18px 16px 62px;border:1px solid #e5ebf2;border-radius:8px;background:linear-gradient(145deg,#fff,#f9fbfd);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.quick-overview-grid article:hover{transform:translateY(-2px);border-color:#c9d9ea;box-shadow:0 10px 24px rgba(25,53,85,.06)}
+.quick-icon{position:absolute;left:17px;top:18px;width:32px;height:32px;border-radius:9px;background:#edf4fb;display:grid;place-items:center;font-size:16px}
+.quick-overview-grid h3{font:700 13px/1.35 'Manrope';color:var(--navy);margin:1px 0 8px}
+.quick-overview-grid p{font-size:10px;line-height:1.65;color:#718096;margin:0}
+.skills-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.skills-grid .expertise-card h3{min-height:42px}
+.skill-chips span{font-size:10px}
+@media(max-width:900px){.quick-overview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.quick-overview-head{align-items:flex-start}.skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.quick-overview{padding:32px 0}.quick-overview-head{display:block}.quick-overview-head p{text-align:left;margin-top:10px}.quick-overview-grid{grid-template-columns:1fr;gap:9px}.quick-overview-grid article{min-height:0;padding:16px 15px 15px 58px}.quick-icon{left:14px;top:15px}.skills-grid{grid-template-columns:1fr}.skills-grid .expertise-card h3{min-height:0}}
