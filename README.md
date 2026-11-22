@@ -1,20 +1,20 @@
 # Ankit Tiwari — Personal Portfolio
 
-A responsive, static portfolio website for GitHub Pages.
+A responsive, static portfolio for GitHub Pages.
 
-## Files
-- `index.html` — portfolio content and structure
-- `styles.css` — responsive visual design
-- `script.js` — mobile navigation and footer year
-- `assets/Ankit_Tiwari_Resume.pdf` — downloadable resume
+## Publish / update
+1. Open https://github.com/ankittiwari2510/ankittiwari2510.github.io
+2. Upload the **contents** of this folder to the repository root (not the outer folder or ZIP).
+3. Commit the changes to `main`.
+4. GitHub Pages deploys from `main` / root.
 
-## Publish with GitHub Pages
-1. Sign in to GitHub and create a **public** repository named exactly `YOUR-USERNAME.github.io` (replace with your GitHub username).
-2. Upload all files and folders from this project. `index.html` must be at the repository root.
-3. Open **Settings → Pages**. Under Build and deployment, select **Deploy from a branch**, choose `main` and `/ (root)`, then Save.
-4. Wait for the Pages deployment to finish. Your website will be available at `https://YOUR-USERNAME.github.io/`.
+## Main files
+- `index.html` — page content, metadata and structured profile data
+- `styles.css` — responsive styling
+- `script.js` — mobile navigation and current year
+- `assets/ankit-tiwari.jpg` — profile photo
+- `assets/Ankit_Tiwari_Resume.pdf` — downloadable CV
+- `sitemap.xml`, `robots.txt` — basic search indexing support
 
-If using a repository with another name, enable Pages in Settings → Pages and use the resulting project URL.
-
-## Before publishing
-Review the phone number, email, LinkedIn URL, relocation preferences and CV PDF. These are public on the website. Replace any details you do not want published.
+## Privacy
+The repository is public. The resume PDF and all files in this repository can be accessed by anyone. Remove the resume from `assets/` and remove the download links in `index.html` if you do not want the PDF publicly accessible.

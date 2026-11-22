@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ankittiwari2510.github.io/sitemap.xml
