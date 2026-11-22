@@ -185,3 +185,11 @@
  .role-pathways .pathway-list span{font-size:11px;padding:9px 11px}
  .skill-chips span{font-size:12px}
 }
+
+/* Credential logos: fixed-size tiles prevent source image dimensions from affecting layout. */
+.credentials-section .credentials-grid{min-width:0;align-items:start}
+.credentials-section .credential-block{min-width:0}
+.credentials-section .credential-item{min-width:0;align-items:center}
+.credentials-section .credential-item>div{min-width:0;flex:1}
+.credentials-section .credential-icon{flex:0 0 44px!important;width:44px!important;height:44px!important;min-width:44px!important;max-width:44px!important;max-height:44px!important;overflow:hidden!important;display:grid!important;place-items:center!important;padding:3px!important;box-sizing:border-box!important}
+.credentials-section .credential-icon img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important}
