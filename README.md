@@ -16,3 +16,8 @@ Responsive static portfolio for GitHub Pages, positioned for European NPI, manuf
 - `assets/Ankit_Tiwari_Resume.pdf` — downloadable resume
 
 Achievement figures and career details are based on the supplied CV. DCM means Direct Cost Margin. The OEE study is labelled academic and is not represented as an implemented plant result. Supplier/procurement positioning is limited to supplier-change projects, supplier negotiations, supplier business cases and sourcing collaboration evidenced in the CV; it does not claim category ownership or strategic sourcing authority.
+
+
+## Version 14
+
+Version 14 is based on Version 12. It adds individual bordered skill tags inside the six Capability Snapshot cards and six Expertise cards. All other site content and assets are retained from Version 12.

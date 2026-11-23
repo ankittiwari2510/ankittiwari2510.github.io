@@ -193,3 +193,72 @@
 .credentials-section .credential-item>div{min-width:0;flex:1}
 .credentials-section .credential-icon{flex:0 0 44px!important;width:44px!important;height:44px!important;min-width:44px!important;max-width:44px!important;max-height:44px!important;overflow:hidden!important;display:grid!important;place-items:center!important;padding:3px!important;box-sizing:border-box!important}
 .credentials-section .credential-icon img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important}
+
+
+/* Version 14 preview — bordered skill tags in both capability areas */
+.quick-overview-grid article{
+  min-height: 190px;
+  padding: 20px 20px 18px;
+}
+.quick-overview-grid h3{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin:0 0 17px;
+  font-size:14px;
+  line-height:1.35;
+}
+.quick-overview-grid .quick-icon{
+  position:static;
+  flex:0 0 34px;
+  width:34px;
+  height:34px;
+  border-radius:10px;
+}
+.quick-skill-chips{
+  display:flex;
+  flex-wrap:wrap;
+  align-content:flex-start;
+  gap:7px;
+}
+.quick-skill-chips span{
+  display:inline-flex;
+  align-items:center;
+  padding:6px 9px;
+  border:1px solid #e1e9f2;
+  border-radius:5px;
+  background:#f8fafd;
+  color:#53677f;
+  font-size:10px;
+  line-height:1.35;
+  font-weight:500;
+}
+.quick-skill-chips span:hover{
+  border-color:#b9cfe7;
+  background:#f0f6fc;
+  color:#24476e;
+}
+@media(max-width:680px){
+  .quick-overview-grid article{min-height:0;padding:18px}
+  .quick-overview-grid h3{font-size:14px;margin-bottom:14px}
+}
+
+/* Ensure every Expertise skill is visibly presented as an individual bordered tag */
+.expertise-card .skill-chips{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:8px !important;
+  align-content:flex-start;
+}
+.expertise-card .skill-chips span{
+  display:inline-block !important;
+  padding:7px 10px !important;
+  border:1px solid #e1e9f2 !important;
+  border-radius:5px !important;
+  background:#f8fafd !important;
+  color:#53677f !important;
+  font-size:10px !important;
+  line-height:1.35 !important;
+  font-weight:500 !important;
+  margin:0 !important;
+}
